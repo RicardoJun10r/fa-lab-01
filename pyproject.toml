@@ -4,4 +4,13 @@ version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [
+    "jupyter>=1.1.1",
+    "matplotlib>=3.10.9",
+    "nbconvert>=7.17.1",
+    "pandas>=3.0.2",
+    "pmdarima>=2.1.1",
+    "requests>=2.33.1",
+    "statsforecast>=2.0.3",
+    "statsmodels>=0.14.6",
+]
